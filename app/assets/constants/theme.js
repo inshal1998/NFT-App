@@ -43,7 +43,6 @@ export const SHADOWS = {
     },
     shadowOpacity: 0.29,
     shadowRadius: 4.65,
-
     elevation: 7,
   },
   dark: {
@@ -54,7 +53,6 @@ export const SHADOWS = {
     },
     shadowOpacity: 0.41,
     shadowRadius: 9.11,
-
     elevation: 14,
   },
 };
