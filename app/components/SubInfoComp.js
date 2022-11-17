@@ -93,5 +93,3 @@ export const ImgComp = ({imgUrl , index }) => {
     />
   )
 }
-
-const styles = StyleSheet.create({})
