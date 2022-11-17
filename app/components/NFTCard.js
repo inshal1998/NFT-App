@@ -30,7 +30,7 @@ const NFTCard = ({data}) => {
             justifyContent:'space-between'
         }}>
             <EthPrice price={data.price} />
-            <RectBtn title={"Place a Bid"} minWidth={120}  fontSize={SIZES.font} handlePress={()=>{navigation.navigate("Detail" , {data})}} />
+            <RectBtn title={"Place a Bid"} minWidth={120}  fontSize={SIZES.font} handlePress={()=>{navigation.navigate("Detail" , {data : data})}} />
         </View>
       </View>
     </View>
